@@ -35,7 +35,7 @@ print(test_acc)
 
 input_file = open("Data/accuracy.csv","r+")
 reader_file = csv.reader(input_file)
-value = len(list(reader_file)) + 1
+value = len(list(reader_file))
 
 path="Data/models/model"+str(value)+".h5"
 
